@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8F08AEC42991E7B000CC8688 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F08AEC32991E7B000CC8688 /* main.cpp */; };
+		8F08AED12991EFFC00CC8688 /* Enums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F08AECF2991EFFC00CC8688 /* Enums.cpp */; };
+		8F08AED42991F2B700CC8688 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F08AED22991F2B700CC8688 /* Person.cpp */; };
+		8F08AED72991F44B00CC8688 /* Address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F08AED52991F44B00CC8688 /* Address.cpp */; };
+		8F08AEDA2991F4E800CC8688 /* ParkingSpot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F08AED82991F4E800CC8688 /* ParkingSpot.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,16 @@
 /* Begin PBXFileReference section */
 		8F08AEC02991E7B000CC8688 /* Parking Lot Design */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Parking Lot Design"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F08AEC32991E7B000CC8688 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F08AECF2991EFFC00CC8688 /* Enums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enums.cpp; sourceTree = "<group>"; };
+		8F08AED02991EFFC00CC8688 /* Enums.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enums.hpp; sourceTree = "<group>"; };
+		8F08AED22991F2B700CC8688 /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		8F08AED32991F2B700CC8688 /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		8F08AED52991F44B00CC8688 /* Address.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Address.cpp; sourceTree = "<group>"; };
+		8F08AED62991F44B00CC8688 /* Address.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Address.hpp; sourceTree = "<group>"; };
+		8F08AED82991F4E800CC8688 /* ParkingSpot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParkingSpot.cpp; sourceTree = "<group>"; };
+		8F08AED92991F4E800CC8688 /* ParkingSpot.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ParkingSpot.hpp; sourceTree = "<group>"; };
+		8F08AEDB2991F66100CC8688 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		8F08AEDC2991F79300CC8688 /* Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,16 @@
 			isa = PBXGroup;
 			children = (
 				8F08AEC32991E7B000CC8688 /* main.cpp */,
+				8F08AECF2991EFFC00CC8688 /* Enums.cpp */,
+				8F08AED02991EFFC00CC8688 /* Enums.hpp */,
+				8F08AED22991F2B700CC8688 /* Person.cpp */,
+				8F08AED32991F2B700CC8688 /* Person.hpp */,
+				8F08AED52991F44B00CC8688 /* Address.cpp */,
+				8F08AED62991F44B00CC8688 /* Address.hpp */,
+				8F08AED82991F4E800CC8688 /* ParkingSpot.cpp */,
+				8F08AED92991F4E800CC8688 /* ParkingSpot.hpp */,
+				8F08AEDB2991F66100CC8688 /* Vehicle.h */,
+				8F08AEDC2991F79300CC8688 /* Account.h */,
 			);
 			path = "Parking Lot Design";
 			sourceTree = "<group>";
@@ -119,6 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F08AEDA2991F4E800CC8688 /* ParkingSpot.cpp in Sources */,
+				8F08AED12991EFFC00CC8688 /* Enums.cpp in Sources */,
+				8F08AED42991F2B700CC8688 /* Person.cpp in Sources */,
+				8F08AED72991F44B00CC8688 /* Address.cpp in Sources */,
 				8F08AEC42991E7B000CC8688 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
