@@ -12,6 +12,7 @@
 		8F08AED42991F2B700CC8688 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F08AED22991F2B700CC8688 /* Person.cpp */; };
 		8F08AED72991F44B00CC8688 /* Address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F08AED52991F44B00CC8688 /* Address.cpp */; };
 		8F08AEDA2991F4E800CC8688 /* ParkingSpot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F08AED82991F4E800CC8688 /* ParkingSpot.cpp */; };
+		8F2260362995AD7C0091EB2C /* ParkingLot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F2260342995AD7C0091EB2C /* ParkingLot.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,11 @@
 		8F08AED92991F4E800CC8688 /* ParkingSpot.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ParkingSpot.hpp; sourceTree = "<group>"; };
 		8F08AEDB2991F66100CC8688 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
 		8F08AEDC2991F79300CC8688 /* Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		8F2260312995A9D20091EB2C /* DisplayBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayBoard.h; sourceTree = "<group>"; };
+		8F2260322995AB7D0091EB2C /* ParkingTicket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkingTicket.h; sourceTree = "<group>"; };
+		8F2260332995AC7A0091EB2C /* Payment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Payment.h; sourceTree = "<group>"; };
+		8F2260342995AD7C0091EB2C /* ParkingLot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParkingLot.cpp; sourceTree = "<group>"; };
+		8F2260352995AD7C0091EB2C /* ParkingLot.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ParkingLot.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,11 @@
 				8F08AED92991F4E800CC8688 /* ParkingSpot.hpp */,
 				8F08AEDB2991F66100CC8688 /* Vehicle.h */,
 				8F08AEDC2991F79300CC8688 /* Account.h */,
+				8F2260312995A9D20091EB2C /* DisplayBoard.h */,
+				8F2260322995AB7D0091EB2C /* ParkingTicket.h */,
+				8F2260332995AC7A0091EB2C /* Payment.h */,
+				8F2260342995AD7C0091EB2C /* ParkingLot.cpp */,
+				8F2260352995AD7C0091EB2C /* ParkingLot.hpp */,
 			);
 			path = "Parking Lot Design";
 			sourceTree = "<group>";
@@ -147,6 +158,7 @@
 				8F08AED12991EFFC00CC8688 /* Enums.cpp in Sources */,
 				8F08AED42991F2B700CC8688 /* Person.cpp in Sources */,
 				8F08AED72991F44B00CC8688 /* Address.cpp in Sources */,
+				8F2260362995AD7C0091EB2C /* ParkingLot.cpp in Sources */,
 				8F08AEC42991E7B000CC8688 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,7 +19,7 @@ class ParkingSpot {
 private:
     int id;
     bool isFree;
-    Vehicle vehicle;
+//    Vehicle vehicle;
 
 public:
     bool getIsFree();

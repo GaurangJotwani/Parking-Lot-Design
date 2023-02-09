@@ -8,6 +8,7 @@
 #ifndef Vehicle_h
 #define Vehicle_h
 #include <string>
+#include "ParkingTicket.h"
 using namespace std;
 
 class Vehicle {
